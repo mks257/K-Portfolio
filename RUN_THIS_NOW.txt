@@ -1,0 +1,110 @@
+🚀 **IMMEDIATE ACTION REQUIRED**
+
+═══════════════════════════════════════════════════════════════════════
+
+The dev server is not running. Here's what to do RIGHT NOW:
+
+═══════════════════════════════════════════════════════════════════════
+
+STEP 1: Open Terminal in VS Code
+─────────────────────────────────────────────────────────────────────
+Press: Ctrl + `
+(backtick key above Tab)
+
+You should see a terminal at the bottom of VS Code.
+
+
+STEP 2: Start Development Server
+─────────────────────────────────────────────────────────────────────
+In the terminal, type:
+
+  npm run dev
+
+Press Enter.
+
+
+STEP 3: Wait for Server to Start
+─────────────────────────────────────────────────────────────────────
+You'll see output like:
+
+  VITE v5.0.8 ready in 234 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  press h to show help
+
+
+STEP 4: Open Your Portfolio
+─────────────────────────────────────────────────────────────────────
+Click the link OR type in browser:
+
+  http://localhost:5173
+
+You should see your portfolio!
+
+
+═══════════════════════════════════════════════════════════════════════
+✅ IF YOU SEE YOUR PORTFOLIO
+═════════════════════════════════════════════════════════════════════════
+
+Congratulations! 🎉
+
+The dev server is running. Now:
+
+1. Keep the terminal OPEN (don't close it)
+2. Edit files in src/components/
+3. Changes appear instantly in browser!
+4. Press Ctrl+Shift+R to refresh if needed
+
+
+═══════════════════════════════════════════════════════════════════════
+❌ IF YOU GET AN ERROR
+═════════════════════════════════════════════════════════════════════════
+
+"npm not found"
+→ Install Node.js: https://nodejs.org (then restart terminal)
+
+"Cannot find module"
+→ Run: npm install
+→ Then: npm run dev
+
+"Port already in use"
+→ Run: npm run dev -- --port 3000
+→ Visit: http://localhost:3000
+
+"File not found"
+→ Check you're in correct directory
+→ Should be: c:\Users\kavya\kavya-portfolio
+
+
+═══════════════════════════════════════════════════════════════════════
+📝 WHAT TO DO NEXT
+═════════════════════════════════════════════════════════════════════════
+
+1. ✅ Start dev server (npm run dev)
+2. ✅ See it at http://localhost:5173
+3. ✅ Edit src/components/Hero.tsx (add your name)
+4. ✅ Watch it update in browser!
+5. ✅ Customize other components
+6. ✅ When done: Ctrl+C to stop server
+
+═════════════════════════════════════════════════════════════════════════
+💡 IMPORTANT NOTES
+═════════════════════════════════════════════════════════════════════════
+
+⚠️  Terminal MUST stay open while developing
+⚠️  Don't close the terminal window
+⚠️  Changes appear instantly (hot reload)
+⚠️  Press Ctrl+Shift+R if browser cache is old
+
+
+═════════════════════════════════════════════════════════════════════════
+🎯 YOUR NEXT COMMAND
+═════════════════════════════════════════════════════════════════════════
+
+In terminal, RIGHT NOW type:
+
+  npm run dev
+
+And press Enter!
+
+═════════════════════════════════════════════════════════════════════════
