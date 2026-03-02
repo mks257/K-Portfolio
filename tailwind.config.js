@@ -6,11 +6,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: '#0f0a1a',
-        secondary: '#1a1328',
-        accent: '#a855f7',
-        'accent-light': '#d946ef',
-        'accent-pink': '#ec4899',
+        primary: '#0a0a0a',
+        secondary: '#1a1a1a',
+        accent: '#dc2626',
+        'accent-light': '#ef4444',
+        'accent-blue': '#3b82f6',
+        'accent-yellow': '#fbbf24',
+        'accent-beige': '#d4a574',
       },
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
