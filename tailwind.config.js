@@ -6,13 +6,33 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: '#0f172a',
-        secondary: '#1e293b',
-        accent: '#3b82f6',
-        'accent-light': '#60a5fa',
+        primary: '#0f0a1a',
+        secondary: '#1a1328',
+        accent: '#a855f7',
+        'accent-light': '#d946ef',
+        'accent-pink': '#ec4899',
       },
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
+      },
+      animation: {
+        'float': 'float 6s ease-in-out infinite',
+        'rotate-3d': 'rotate3d 20s linear infinite',
+        'pulse-glow': 'pulseGlow 2s ease-in-out infinite',
+      },
+      keyframes: {
+        float: {
+          '0%, 100%': { transform: 'translateY(0px) rotateX(0deg)' },
+          '50%': { transform: 'translateY(-20px) rotateX(5deg)' },
+        },
+        rotate3d: {
+          '0%': { transform: 'rotateX(0deg) rotateY(0deg) rotateZ(0deg)' },
+          '100%': { transform: 'rotateX(360deg) rotateY(360deg) rotateZ(360deg)' },
+        },
+        pulseGlow: {
+          '0%, 100%': { boxShadow: '0 0 20px rgba(168, 85, 247, 0.5)' },
+          '50%': { boxShadow: '0 0 40px rgba(217, 70, 239, 0.8)' },
+        },
       },
     },
   },

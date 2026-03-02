@@ -1,0 +1,2 @@
+# Save your profile image as: public/images/profile.jpg
+# The Hero component will reference this image

@@ -43,7 +43,7 @@ export default function Contact() {
           <h2 className="text-4xl md:text-5xl font-light text-white mb-4 tracking-tight">
             Let's Connect
           </h2>
-          <p className="text-lg text-slate-400 font-light max-w-2xl mx-auto">
+          <p className="text-lg text-purple-200 font-light max-w-2xl mx-auto">
             Have a project in mind? I'd love to hear about it. Reach out and let's create something amazing together.
           </p>
         </div>
@@ -52,16 +52,16 @@ export default function Contact() {
           {/* Contact Information - Apple Style Cards */}
           <div className="space-y-8">
             {/* Email Card */}
-            <div className="group p-8 rounded-2xl bg-white/5 backdrop-blur-md border border-white/10 hover:border-white/20 transition-all duration-300 hover:bg-white/10">
+            <div className="group p-8 rounded-2xl bg-gradient-to-br from-purple-500/10 to-pink-500/10 backdrop-blur-md border border-purple-500/30 hover:border-purple-500/60 transition-all duration-300 hover:bg-purple-500/20">
               <div className="flex items-start gap-4">
-                <div className="p-3 rounded-xl bg-gradient-to-br from-blue-500/20 to-blue-600/20 group-hover:from-blue-500/30 group-hover:to-blue-600/30 transition-all">
-                  <Mail className="text-blue-400" size={24} />
+                <div className="p-3 rounded-xl bg-gradient-to-br from-purple-500/30 to-pink-500/30 group-hover:from-purple-500/50 group-hover:to-pink-500/50 transition-all">
+                  <Mail className="text-purple-300" size={24} />
                 </div>
                 <div className="flex-1">
                   <h3 className="text-lg font-semibold text-white mb-2">Email</h3>
                   <a
                     href="mailto:kavyasrimeka25@gmail.com"
-                    className="text-slate-300 hover:text-blue-400 transition-colors font-light"
+                    className="text-purple-200 hover:text-purple-100 transition-colors font-light"
                   >
                     kavyasrimeka25@gmail.com
                   </a>
@@ -70,16 +70,16 @@ export default function Contact() {
             </div>
 
             {/* Phone Card */}
-            <div className="group p-8 rounded-2xl bg-white/5 backdrop-blur-md border border-white/10 hover:border-white/20 transition-all duration-300 hover:bg-white/10">
+            <div className="group p-8 rounded-2xl bg-gradient-to-br from-purple-500/10 to-pink-500/10 backdrop-blur-md border border-purple-500/30 hover:border-purple-500/60 transition-all duration-300 hover:bg-purple-500/20">
               <div className="flex items-start gap-4">
-                <div className="p-3 rounded-xl bg-gradient-to-br from-green-500/20 to-green-600/20 group-hover:from-green-500/30 group-hover:to-green-600/30 transition-all">
-                  <Phone className="text-green-400" size={24} />
+                <div className="p-3 rounded-xl bg-gradient-to-br from-purple-500/30 to-pink-500/30 group-hover:from-purple-500/50 group-hover:to-pink-500/50 transition-all">
+                  <Phone className="text-purple-300" size={24} />
                 </div>
                 <div className="flex-1">
                   <h3 className="text-lg font-semibold text-white mb-2">Phone</h3>
                   <a
                     href="tel:+19408433174"
-                    className="text-slate-300 hover:text-green-400 transition-colors font-light"
+                    className="text-purple-200 hover:text-purple-100 transition-colors font-light"
                   >
                     +1 (940) 843-3174
                   </a>
@@ -88,14 +88,14 @@ export default function Contact() {
             </div>
 
             {/* Location Card */}
-            <div className="group p-8 rounded-2xl bg-white/5 backdrop-blur-md border border-white/10 hover:border-white/20 transition-all duration-300 hover:bg-white/10">
+            <div className="group p-8 rounded-2xl bg-gradient-to-br from-purple-500/10 to-pink-500/10 backdrop-blur-md border border-purple-500/30 hover:border-purple-500/60 transition-all duration-300 hover:bg-purple-500/20">
               <div className="flex items-start gap-4">
-                <div className="p-3 rounded-xl bg-gradient-to-br from-orange-500/20 to-orange-600/20 group-hover:from-orange-500/30 group-hover:to-orange-600/30 transition-all">
-                  <MapPin className="text-orange-400" size={24} />
+                <div className="p-3 rounded-xl bg-gradient-to-br from-purple-500/30 to-pink-500/30 group-hover:from-purple-500/50 group-hover:to-pink-500/50 transition-all">
+                  <MapPin className="text-purple-300" size={24} />
                 </div>
                 <div className="flex-1">
                   <h3 className="text-lg font-semibold text-white mb-2">Location</h3>
-                  <p className="text-slate-300 font-light">Dallas, Texas, USA</p>
+                  <p className="text-purple-200 font-light">Dallas, Texas, USA</p>
                 </div>
               </div>
             </div>
@@ -115,7 +115,7 @@ export default function Contact() {
                 value={formData.name}
                 onChange={handleChange}
                 required
-                className="w-full px-5 py-3 bg-white/5 border border-white/10 rounded-xl text-white placeholder-slate-500 focus:outline-none focus:border-blue-400 focus:bg-white/10 transition-all duration-200 backdrop-blur-sm"
+                className="w-full px-5 py-3 bg-purple-500/5 border border-purple-500/30 rounded-xl text-white placeholder-slate-500 focus:outline-none focus:border-purple-500 focus:bg-purple-500/10 transition-all duration-200 backdrop-blur-sm"
                 placeholder="Your name"
               />
             </div>
@@ -132,7 +132,7 @@ export default function Contact() {
                 value={formData.email}
                 onChange={handleChange}
                 required
-                className="w-full px-5 py-3 bg-white/5 border border-white/10 rounded-xl text-white placeholder-slate-500 focus:outline-none focus:border-blue-400 focus:bg-white/10 transition-all duration-200 backdrop-blur-sm"
+                className="w-full px-5 py-3 bg-purple-500/5 border border-purple-500/30 rounded-xl text-white placeholder-slate-500 focus:outline-none focus:border-purple-500 focus:bg-purple-500/10 transition-all duration-200 backdrop-blur-sm"
                 placeholder="your.email@example.com"
               />
             </div>
@@ -149,7 +149,7 @@ export default function Contact() {
                 value={formData.subject}
                 onChange={handleChange}
                 required
-                className="w-full px-5 py-3 bg-white/5 border border-white/10 rounded-xl text-white placeholder-slate-500 focus:outline-none focus:border-blue-400 focus:bg-white/10 transition-all duration-200 backdrop-blur-sm"
+                className="w-full px-5 py-3 bg-purple-500/5 border border-purple-500/30 rounded-xl text-white placeholder-slate-500 focus:outline-none focus:border-purple-500 focus:bg-purple-500/10 transition-all duration-200 backdrop-blur-sm"
                 placeholder="Project inquiry"
               />
             </div>
@@ -166,7 +166,7 @@ export default function Contact() {
                 onChange={handleChange}
                 required
                 rows={5}
-                className="w-full px-5 py-3 bg-white/5 border border-white/10 rounded-xl text-white placeholder-slate-500 focus:outline-none focus:border-blue-400 focus:bg-white/10 transition-all duration-200 resize-none backdrop-blur-sm"
+                className="w-full px-5 py-3 bg-purple-500/5 border border-purple-500/30 rounded-xl text-white placeholder-slate-500 focus:outline-none focus:border-purple-500 focus:bg-purple-500/10 transition-all duration-200 resize-none backdrop-blur-sm"
                 placeholder="Tell me about your project..."
               />
             </div>
@@ -174,7 +174,7 @@ export default function Contact() {
             {/* Submit Button - Premium Style */}
             <button
               type="submit"
-              className="w-full py-3 px-6 bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-700 hover:to-blue-600 text-white font-semibold rounded-xl transition-all duration-300 flex items-center justify-center gap-2 group hover:shadow-lg hover:shadow-blue-500/25 active:scale-95"
+              className="w-full py-3 px-6 bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-semibold rounded-xl transition-all duration-300 flex items-center justify-center gap-2 group hover:shadow-lg hover:shadow-purple-500/25 active:scale-95"
             >
               {isSubmitted ? (
                 <>
@@ -189,7 +189,7 @@ export default function Contact() {
             </button>
 
             {isSubmitted && (
-              <p className="text-blue-400 text-center font-light text-sm">
+              <p className="text-purple-300 text-center font-light text-sm">
                 ✓ Thanks for reaching out! I'll get back to you soon.
               </p>
             )}
