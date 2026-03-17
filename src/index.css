@@ -9,41 +9,97 @@
 
   body {
     @apply bg-primary text-slate-100;
-    background: linear-gradient(135deg, #0f0a1a 0%, #1a1328 100%);
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
+    background-attachment: fixed;
   }
 }
 
 @layer components {
   /* Premium Button Styles */
   .btn-primary {
-    @apply px-6 py-3 bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white rounded-xl font-semibold transition-all duration-300 hover:shadow-lg hover:shadow-red-600/25 active:scale-95;
+    padding: 0.75rem 1.5rem;
+    background: linear-gradient(to right, rgb(37, 99, 235), rgb(29, 78, 216));
+    color: white;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    transition: all 0.3s;
+    box-shadow: 0 4px 6px rgba(37, 99, 235, 0.2);
+  }
+
+  .btn-primary:hover {
+    background: linear-gradient(to right, rgb(29, 78, 216), rgb(23, 64, 185));
+    box-shadow: 0 8px 12px rgba(37, 99, 235, 0.3);
   }
 
   .btn-secondary {
-    @apply px-6 py-3 border border-yellow-500/50 text-yellow-100 hover:bg-yellow-500/10 hover:border-yellow-500/80 rounded-xl font-semibold transition-all duration-300 backdrop-blur-sm;
+    padding: 0.75rem 1.5rem;
+    border: 2px solid rgb(100, 116, 139);
+    color: rgb(203, 213, 225);
+    border-radius: 0.5rem;
+    font-weight: 600;
+    transition: all 0.3s;
+  }
+
+  .btn-secondary:hover {
+    border-color: rgb(148, 163, 184);
+    color: rgb(226, 232, 240);
+    background-color: rgba(255, 255, 255, 0.05);
   }
 
   /* Section Styles - Apple Inspired */
   .section-title {
-    @apply text-5xl md:text-6xl font-light text-white mb-6 tracking-tight;
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: white;
+    margin-bottom: 1.5rem;
+    letter-spacing: -0.015em;
+  }
+
+  @media (min-width: 768px) {
+    .section-title {
+      font-size: 3.75rem;
+    }
   }
 
   .section-subtitle {
-    @apply text-lg text-slate-300 mb-12 font-light max-w-2xl;
+    font-size: 1.125rem;
+    color: rgb(148, 163, 184);
+    margin-bottom: 3rem;
+    font-weight: 300;
+    max-width: 42rem;
   }
 
   /* Premium Card Styles */
   .card {
-    @apply bg-red-500/5 backdrop-blur-md rounded-2xl p-6 border border-red-500/30 hover:border-red-500/60 hover:bg-red-500/10 transition-all duration-300 hover:shadow-xl;
+    background: rgba(59, 130, 246, 0.05);
+    backdrop-filter: blur(12px);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    border: 1px solid rgba(59, 130, 246, 0.2);
+    transition: all 0.3s;
+  }
+
+  .card:hover {
+    border-color: rgba(59, 130, 246, 0.5);
+    background: rgba(59, 130, 246, 0.1);
+    box-shadow: 0 10px 25px rgba(59, 130, 246, 0.15);
   }
 
   /* Glass Morphism Effects */
   .glass {
-    @apply bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 1rem;
   }
 
   .glass-hover {
-    @apply glass hover:bg-white/10 hover:border-white/20 transition-all duration-300;
+    transition: all 0.3s;
+  }
+
+  .glass-hover:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.2);
   }
 
   /* Smooth Animations */
@@ -116,6 +172,72 @@
     }
   }
 
+  /* New 3D Animations for Professional UI */
+  @keyframes blob-3d {
+    0%, 100% {
+      transform: translate(0, 0) scale(1) rotateX(0deg) rotateY(0deg);
+      opacity: 0.3;
+    }
+    25% {
+      transform: translate(20px, -30px) scale(1.1) rotateX(15deg) rotateY(15deg);
+      opacity: 0.4;
+    }
+    50% {
+      transform: translate(-10px, 20px) scale(0.9) rotateX(-10deg) rotateY(20deg);
+      opacity: 0.35;
+    }
+    75% {
+      transform: translate(-20px, -10px) scale(1.05) rotateX(5deg) rotateY(-15deg);
+      opacity: 0.4;
+    }
+  }
+
+  @keyframes rotate-3d-slow {
+    0% {
+      transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+    }
+    100% {
+      transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+    }
+  }
+
+  @keyframes profile-float {
+    0%, 100% {
+      transform: translateY(0px) rotateX(0deg) rotateY(0deg);
+    }
+    25% {
+      transform: translateY(-15px) rotateX(5deg) rotateY(-5deg);
+    }
+    50% {
+      transform: translateY(-25px) rotateX(-3deg) rotateY(8deg);
+    }
+    75% {
+      transform: translateY(-10px) rotateX(4deg) rotateY(-3deg);
+    }
+  }
+
+  @keyframes float-particle {
+    0%, 100% {
+      transform: translate(0, 0) scale(1);
+      opacity: 0;
+    }
+    50% {
+      transform: translate(10px, -15px) scale(1.2);
+      opacity: 0.6;
+    }
+  }
+
+  @keyframes scroll-down {
+    0%, 20% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+  }
+
   .animate-fadeInUp {
     animation: fadeInUp 0.6s ease-out;
   }
@@ -144,22 +266,56 @@
     animation: shimmer 2s infinite;
   }
 
-  /* Hover Effects */
+  /* New 3D Animation Classes */
+  .animate-blob-3d {
+    animation: blob-3d 8s ease-in-out infinite;
+  }
+
+  .animate-rotate-3d-slow {
+    animation: rotate-3d-slow 8s linear infinite;
+  }
+
+  .animate-profile-float {
+    animation: profile-float 6s ease-in-out infinite;
+  }
+
+  .animate-float-particle {
+    animation: float-particle 6s ease-in-out infinite;
+  }
+
+  .animate-scroll-down {
+    animation: scroll-down 1.5s ease-in-out infinite;
+  }
+
+  /* Hover Effects - Subtle, no aggressive animations */
   .hover-lift {
-    @apply transition-all duration-300 hover:shadow-2xl hover:-translate-y-1;
+    transition: all 0.3s duration-300;
+  }
+
+  .hover-lift:hover {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3);
+    transform: translateY(-4px);
   }
 
   .hover-scale {
-    @apply transition-transform duration-300 hover:scale-105;
+    transition: transform 0.3s;
+  }
+
+  .hover-scale:hover {
+    transform: scale(1.05);
   }
 
   /* Text Utilities */
   .text-gradient {
-    @apply bg-gradient-to-r from-red-400 via-yellow-400 to-blue-400 bg-clip-text text-transparent;
+    background: linear-gradient(to right, rgb(248, 113, 113), rgb(251, 191, 36), rgb(59, 130, 246));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
   }
 
   .text-light {
-    @apply font-light tracking-wide;
+    font-weight: 300;
+    letter-spacing: 0.05em;
   }
 
   /* 3D Perspective */
