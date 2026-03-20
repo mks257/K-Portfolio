@@ -1,17 +1,9 @@
-import { useEffect } from 'react'
 import { Github, Linkedin, Mail, Heart } from 'lucide-react'
 
 export default function Footer() {
   const currentYear = new Date().getFullYear()
 
-  // Load LinkedIn badge script
-  useEffect(() => {
-    const script = document.createElement('script')
-    script.src = 'https://platform.linkedin.com/badges/js/profile.js'
-    script.async = true
-    script.defer = true
-    document.body.appendChild(script)
-  }, [])
+
 
   return (
     <footer className="bg-primary border-t border-slate-700 py-12 px-4 sm:px-6 lg:px-8">
@@ -98,14 +90,7 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* LinkedIn Badge Section */}
-        <div className="border-t border-slate-700 py-8 mb-8 flex justify-center">
-          <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="kavyasrimeka" data-version="v1">
-            <a className="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/kavyasrimeka?trk=profile-badge">
-              Kavya Sri Meka
-            </a>
-          </div>
-        </div>
+
 
         <div className="border-t border-slate-700 pt-8 flex flex-col md:flex-row justify-between items-center text-slate-400 text-sm">
           <p>

@@ -25,30 +25,7 @@ const jobs: Job[] = [
       'Led daily stand-ups and cross-team coordination using JIRA and Confluence to align projects with delivery goals',
     ],
   },
-  {
-    company: 'HCA',
-    position: 'Software Developer',
-    duration: '2023 - 2025',
-    description: [
-      'Designed and maintained REST API microservices using Java and Spring Boot',
-      'Implemented messaging systems using RabbitMQ and Kafka for asynchronous processing',
-      'Deployed scalable applications using AWS services (EC2, S3, RDS)',
-      'Optimized database queries and implemented multithreading for performance',
-      'Collaborated in Agile environments and participated in code reviews',
-    ],
-  },
-  {
-    company: 'Visteon',
-    position: 'Software Developer',
-    duration: '2021 - 2023',
-    description: [
-      'Contributed to full software development lifecycle projects',
-      'Worked with relational (Oracle, SQL) and NoSQL (MongoDB) databases',
-      'Supported CI/CD pipelines using Docker, Jenkins, and Kubernetes',
-      'Implemented RESTful APIs and integrated third-party services',
-      'Participated in system design and architecture discussions',
-    ],
-  },
+
   {
     company: 'University of North Texas',
     position: 'Graduate Research Assistant',

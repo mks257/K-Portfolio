@@ -20,11 +20,12 @@ A modern, responsive portfolio website showcasing software engineering expertise
 
 ## 🛠 Tech Stack
 
-- **Frontend**: React 18, TypeScript
+- **Frontend**: React 18, TypeScript, React Router DOM
 - **Build Tool**: Vite
-- **Styling**: Tailwind CSS
+- **Styling**: Tailwind CSS, PostCSS, Autoprefixer
+- **Animations**: Custom Tailwind CSS Keyframes, CSS3 3D Transforms, Native CSS Transitions
 - **Icons**: Lucide React
-- **Deployment**: Ready for Vercel, Netlify, AWS
+- **Deployment & Hosting**: Vercel
 
 ## 📦 Installation
 

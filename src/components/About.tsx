@@ -12,12 +12,7 @@ export default function About() {
             <p className="text-lg text-slate-300 mb-6 leading-relaxed">
               I'm a Software Engineer with a Master's in Computer Engineering from the University of North Texas. I combine deep technical knowledge with real-world enterprise experience to build scalable, high-performance systems.
             </p>
-            <p className="text-lg text-slate-300 mb-6 leading-relaxed">
-              Currently at HCA, I design and maintain REST API microservices using Java and Spring Boot, implementing messaging systems like RabbitMQ and Kafka, and deploying scalable applications on AWS.
-            </p>
-            <p className="text-lg text-slate-300 mb-6 leading-relaxed">
-              Previously at Visteon, I contributed to full software development lifecycle projects, working with relational and NoSQL databases, and supporting CI/CD pipelines using Docker, Jenkins, and Kubernetes.
-            </p>
+
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
