@@ -43,7 +43,7 @@ export default function Navbar({ isMenuOpen, setIsMenuOpen }: NavbarProps) {
                 {link.label}
               </a>
             ))}
-            <button className="btn-primary">Download CV</button>
+            <a href="/resume.pdf" download="kavya_resume.pdf" className="btn-primary inline-block text-center text-sm md:text-base px-6 py-2.5 rounded-lg font-medium transition-all duration-300 shadow-lg shadow-accent/20 hover:shadow-accent/40 active:scale-95">Download CV</a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -70,7 +70,7 @@ export default function Navbar({ isMenuOpen, setIsMenuOpen }: NavbarProps) {
                 {link.label}
               </a>
             ))}
-            <button className="w-full btn-primary mt-4">Download CV</button>
+            <a href="/resume.pdf" download="kavya_resume.pdf" className="w-full btn-primary mt-4 block text-center text-sm md:text-base px-6 py-2.5 rounded-lg font-medium transition-all duration-300 shadow-lg shadow-accent/20 hover:shadow-accent/40 active:scale-95">Download CV</a>
           </div>
         )}
       </div>

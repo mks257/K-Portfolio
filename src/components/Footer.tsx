@@ -73,19 +73,23 @@ export default function Footer() {
             <h4 className="font-semibold text-white mb-4">Follow Me</h4>
             <div className="flex gap-4">
               <a
-                href="#"
+                href="https://github.com/mks257"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-slate-400 hover:text-accent transition-colors hover:scale-110 transform"
               >
                 <Github size={20} />
               </a>
               <a
-                href="#"
+                href="https://www.linkedin.com/in/kavyasrimeka/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-slate-400 hover:text-accent transition-colors hover:scale-110 transform"
               >
                 <Linkedin size={20} />
               </a>
               <a
-                href="#"
+                href="mailto:kavyasrimeka25@gmail.com"
                 className="text-slate-400 hover:text-accent transition-colors hover:scale-110 transform"
               >
                 <Mail size={20} />

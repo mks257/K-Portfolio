@@ -55,11 +55,12 @@ export default function Hero() {
                 onClick={() => scrollToSection('projects')}
                 className="inline-flex items-center justify-center gap-2 px-8 py-3 bg-gradient-to-r from-gray-800 to-gray-900 hover:from-gray-900 hover:to-black text-white font-medium rounded-lg transition-all duration-300 shadow-lg shadow-gray-900/50 active:scale-95"
               >
-                View My Work
+                View multiverse projects
                 <ArrowRight size={18} />
               </button>
               <a 
                 href="/resume.pdf"
+                download="kavya_resume.pdf"
                 className="inline-flex items-center justify-center gap-2 px-8 py-3 border-2 border-slate-400 text-slate-300 hover:border-slate-200 hover:text-slate-100 hover:bg-white/5 rounded-lg font-medium transition-all duration-300"
               >
                 Download Resume
@@ -69,7 +70,7 @@ export default function Hero() {
             {/* Social Links - Minimal and Clean */}
             <div className="flex gap-4 pt-4">
               <a
-                href="https://github.com"
+                href="https://github.com/mks257"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 rounded-lg bg-slate-800/50 border border-slate-700/50 text-slate-300 hover:text-white hover:border-slate-600 transition-all duration-300 hover:bg-slate-800"
@@ -78,7 +79,7 @@ export default function Hero() {
                 <Github size={22} />
               </a>
               <a
-                href="https://www.linkedin.com/in/kavyasrimeka"
+                href="https://www.linkedin.com/in/kavyasrimeka/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 rounded-lg bg-slate-800/50 border border-slate-700/50 text-slate-300 hover:text-white hover:border-slate-600 transition-all duration-300 hover:bg-slate-800"
