@@ -26,17 +26,6 @@ const jobs: Job[] = [
     ],
   },
 
-  {
-    company: 'University of North Texas',
-    position: 'Graduate Research Assistant',
-    duration: '2019 - 2021',
-    description: [
-      'Developed and delivered programming curricula for students',
-      'Mentored students in Python and embedded systems programming',
-      'Conducted research on distributed systems and cloud computing',
-      'Strengthened leadership, communication, and technical mentoring skills',
-    ],
-  },
 ]
 
 export default function Experience() {
