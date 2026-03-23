@@ -1,4 +1,4 @@
-**🌍 Live Demo:** [MY PORTFOLIO](https://k-portfolio-git-main-kavyasrimeka25-1880s-projects.vercel.app/)
+**🌍 Live Demo:** [MY PORTFOLIO](https://k-portfolio-b4cfyssar-kavyasrimeka25-1880s-projects.vercel.app/)
 
 # Kavya's Professional Portfolio
 
