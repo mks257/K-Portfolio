@@ -12,7 +12,12 @@ export default function About() {
             <p className="text-lg text-slate-300 mb-6 leading-relaxed">
               I'm a Software Engineer with a Master's in Computer Engineering from the University of North Texas. I combine deep technical knowledge with real-world enterprise experience to build scalable, high-performance systems.
             </p>
-
+            <p className="text-lg text-slate-300 mb-6 leading-relaxed">
+              Currently, I work as a Software Developer at Verizon, where I focus on building robust Micro Frontends (MFE) using React for the MYBIZ platform, optimizing offer presentation for business customers at scale.
+            </p>
+            <p className="text-lg text-slate-300 mb-6 leading-relaxed">
+              Beyond frontend development, I have strong hands-on experience in backend microservices architecture with Java and Spring Boot, as well as managing and troubleshooting DevOps operations, CI/CD pipelines, and cloud deployments.
+            </p>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
